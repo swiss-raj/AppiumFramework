@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.rajdhakal.appiumdemo.LongPress">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="longPressGesture"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.LongPress -->
+      <class name="com.rajdhakal.appiumdemo.KeyEventTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="keyEvents"/>
+          <include name="confifureAppium"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.KeyEventTest -->
+      <class name="com.rajdhakal.endtoendandroid.ToastMessage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="toastMessage"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendandroid.ToastMessage -->
+      <class name="com.rajdhakal.endtoendIOStest.IOSBasicAppium">
+        <methods>
+          <include name="confifureAppium"/>
+          <include name="IOSHomePageTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendIOStest.IOSBasicAppium -->
+      <class name="com.rajdhakal.endtoendIOStest.IOSSwipeTest">
+        <methods>
+          <include name="confifureAppium"/>
+          <include name="tearDown"/>
+          <include name="iosSwipe"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendIOStest.IOSSwipeTest -->
+      <class name="com.rajdhakal.appiumdemo.RotateScreen">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="rotateScreen"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.RotateScreen -->
+      <class name="com.rajdhakal.appiumdemo.ClipBoardText">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="clipBoardText"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.ClipBoardText -->
+      <class name="com.rajdhakal.appiumdemo.DragAndDropTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="dragAndDrop"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.DragAndDropTest -->
+      <class name="com.rajdhakal.endtoendandroid.MobileBrowserTest">
+        <methods>
+          <include name="confifureAppium"/>
+          <include name="browserTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendandroid.MobileBrowserTest -->
+      <class name="com.rajdhakal.endtoendandroid.HybridPart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="selectProduct"/>
+          <include name="confifureAppium"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendandroid.HybridPart -->
+      <class name="com.rajdhakal.appiumdemo.SwipeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="swipeTest"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.SwipeTest -->
+      <class name="com.rajdhakal.endtoendandroid.FillForm">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="fillForm"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendandroid.FillForm -->
+      <class name="com.rajdhakal.endtoendIOStest.OpenExistingAppAndTest">
+        <methods>
+          <include name="confifureAppium"/>
+          <include name="openExistingTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendIOStest.OpenExistingAppAndTest -->
+      <class name="com.rajdhakal.appiumdemo.TestDesignatedPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="testSpecificPage"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.TestDesignatedPage -->
+      <class name="com.rajdhakal.appiumdemo.ScrollTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="scrollTest"/>
+          <include name="confifureAppium"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.ScrollTest -->
+      <class name="com.rajdhakal.endtoendandroid.SelectProduct">
+        <methods>
+          <include name="selectProduct"/>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+        </methods>
+      </class> <!-- com.rajdhakal.endtoendandroid.SelectProduct -->
+      <class name="com.rajdhakal.appiumdemo.BasicAppium">
+        <methods>
+          <include name="tearDown"/>
+          <include name="confifureAppium"/>
+          <include name="appiumTest"/>
+        </methods>
+      </class> <!-- com.rajdhakal.appiumdemo.BasicAppium -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
